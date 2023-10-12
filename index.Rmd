@@ -36,10 +36,7 @@ library(tidyverse)
 library(dplyr)
 library(ggplot2)
 library(sf)
-library(geoAr)
 library(leaflet)
-library(tidygeocoder)
-library(osrm)
 ```
 
 Luego, se procede a importar las bases de datos para realizar una breve exploración de sus contenidos.
