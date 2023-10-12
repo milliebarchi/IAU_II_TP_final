@@ -1,0 +1,236 @@
+---
+title: "Instrumentos de Análisis Urbano II"
+description: |
+  Maestría en Economía Urbana | Universidad Torcuato Di Tella  
+  Milagros Antonella Barchi  
+  https://github.com/milliebarchi/IAU_II_TP_final
+site: distill::distill_website
+---
+
+
+## Trabajo Práctico Final
+
+### Presentación del tema
+En el marco de la planificación urbana contemporánea, la movilidad sostenible ha surgido como un área prioritaria de investigación y acción. La Ciudad de Buenos Aires, como entorno metropolitano en constante evolución, se enfrenta a la necesidad imperante de reevaluar y adaptar sus sistemas de transporte para alinearse con principios sostenibles.
+
+Este estudio se propone analizar de manera cuantitativa la infraestructura de bicicletas públicas en la Ciudad de Buenos Aires, centrándose en la distribución y densidad de estaciones. El objetivo principal es responder a tres preguntas específicas: identificar los barrios y comunas con mayor infraestructura de bicicletas públicas, determinar áreas que podrían beneficiarse de una expansión de esta infraestructura para fomentar la movilidad sostenible y, analizar patrones de uso durante el año 2022.
+
+Este enfoque busca proporcionar datos objetivos y tangibles sobre la presencia de estaciones de bicicletas públicas en la ciudad, con la intención de informar decisiones de planificación urbana y contribuir al entendimiento de cómo estas infraestructuras pueden facilitar la movilidad sostenible en áreas urbanas densamente pobladas.
+
+
+### Fuentes de datos
+Este estudio se basa en datos recopilados del portal **Buenos Aires Data**, para llevar a cabo un análisis cuantitativo de la infraestructura relacionada con la movilidad en la ciudad. Los conjuntos de datos seleccionados para este análisis incluyen información sobre los barrios y comunas de la Ciudad Autónoma de Buenos Aires (CABA), las estaciones de bicicletas públicas,y los recorridos realizados en 2022 (bonus).
+
+Comunas CABA: https://data.buenosaires.gob.ar/dataset/comunas  
+Barrios CABA: https://data.buenosaires.gob.ar/dataset/barrios  
+Estaciones de bicicletas públicas: https://data.buenosaires.gob.ar/dataset/estaciones-bicicletas-publicas  
+Recorridos 2022: https://data.buenosaires.gob.ar/dataset/bicicletas-publicas
+
+### Análisis exploratorio de datos
+Para dar inicio al trabajo práctico, se corren las librerías necesarias:
+
+```{r}
+library(readxl)
+library(rmarkdown)
+library(tidyverse)
+library(dplyr)
+library(ggplot2)
+library(sf)
+library(geoAr)
+library(leaflet)
+library(tidygeocoder)
+library(osrm)
+```
+
+Luego, se procede a importar las bases de datos para realizar una breve exploración de sus contenidos.
+
+```{r}
+estaciones_bici <- read.csv("datos/estaciones_bici.csv",
+                       encoding = "latin1",
+                       stringsAsFactors = TRUE)
+```
+
+
+#### Estaciones de bicicletas públicas
+Para entender la estructura de los datos de las estaciones, primero se realiza una rápida observación de la composición del dataframe, y luego se visualiza la cantidad de entradas y columnas que hay, qué tipo de información contienen, y un resumen de su contenido.
+
+```{r}
+paged_table(estaciones_bici)
+```
+
+```{r}
+dim(estaciones_bici)
+```
+```{r}
+colnames(estaciones_bici)
+```
+```{r}
+summary(estaciones_bici)
+```
+De esta información se extrae que hay **229 estaciones** de bicicletas públicas. El dataframe cuenta con información como el nombre de la estación, el barrio y comuna, y sus coordenadas. El *summary* em primera instancia permite observar que el barrio que cuenta con la mayor cantidad de estaciones es **Palermo**, así como la **Comuna 1** .
+
+
+### Transformación de datos
+En esta segunda instancia del análisis, se realizan las operaciones para poder empezar a responder las preguntas planteadas al inicio del trabajo.
+
+Para visualizar la cantidad de estaciones de bicicletas por barrio y por comuna, se realizan las siguientes transformaciones: 
+1. Selección de la columna "COMUNA" y cálculo de la cantidad de observaciones.
+
+```{r}
+estaciones_bici_comuna <- estaciones_bici %>%
+  group_by(COMUNA) %>%
+  summarise(cantidad = n()) %>%
+  arrange(desc(cantidad))
+```
+
+```{r}
+ggplot(estaciones_bici_comuna, aes(x = reorder(COMUNA, -cantidad), y = cantidad)) +
+  geom_bar(stat = "identity", fill = "#007acc", alpha = 0.7) +
+  theme_minimal() +
+  geom_text(aes(label = cantidad), hjust = 1.5, vjust = 0.2, color = "black", size = 2.5) +
+  labs(title = "Estaciones de bicicletas públicas por Comuna",
+       subtitle = "Ciudad de Buenos Aires",
+       caption= "Fuente: Buenos Aires Data",
+       x = "Comuna",
+       y = "Cantidad") +
+  coord_flip()
+```
+
+De este gráfico se desprende que la **Comuna 1** es la que cuenta con mayor cantidad de estaciones de bicicletas públicas (49), seguido de la **Comuna 14** (29 estaciones), y la **Comuna 4** (22 estaciones). Las **Comunas 10, 8 y 9** son las que menor cantidad de estaciones presentan.
+
+2. Selección de la columna "BARRIO" y cálculo de la cantidad de observaciones (top 10 y last 10).
+
+```{r}
+estaciones_bici_barrio <- estaciones_bici %>%
+  group_by(BARRIO) %>%
+  summarise(cantidad = n()) %>%
+  arrange(desc(cantidad))
+```
+
+```{r}
+top_10 <- estaciones_bici_barrio %>%
+  top_n(10, cantidad)
+```
+
+```{r}
+ggplot(top_10, aes(x = reorder(BARRIO, -cantidad), y = cantidad)) +
+  geom_bar(stat = "identity", fill = "#007acc", alpha = 0.7) +
+  theme_minimal() +
+  geom_text(aes(label = cantidad), hjust = 1.5, vjust = 0.2, color = "black", size = 2.5) +
+  labs(title = "10 Barrios con mayor cantidad de estaciones de bicicletas públicas",
+       subtitle = "Ciudad de Buenos Aires",
+       caption= "Fuente: Buenos Aires Data",
+       x = "Barrio",
+       y = "Cantidad") +
+  coord_flip()
+```
+```{r}
+estaciones_bici_barrio_ordenado <- estaciones_bici_barrio %>%
+  arrange(cantidad)
+```
+
+```{r}
+last_10 <- head(estaciones_bici_barrio_ordenado, 10)
+```
+
+```{r}
+ggplot(last_10, aes(x = reorder(BARRIO, -cantidad), y = cantidad)) +
+  geom_bar(stat = "identity", fill = "#007acc", alpha = 0.7) +
+  theme_minimal() +
+  geom_text(aes(label = cantidad), hjust = 1.5, vjust = 0.2, color = "black", size = 2.5) +
+  labs(title = "10 Barrios con menor cantidad de estaciones de bicicletas públicas",
+       subtitle = "Ciudad de Buenos Aires",
+       caption= "Fuente: Buenos Aires Data",
+       x = "Barrio",
+       y = "Cantidad") +
+  coord_flip()
+```
+
+De estos gráficos se desprende que **Palermo** es el barrio que cuenta con mayor cantidad de estaciones de bicicletas públicas (29), seguido de **Recoleta** (18 estaciones), y **San Nicolás** (17 estaciones). **Villa Santa Rita, Villa Lugano y Floresta** son los barrios que solo cuentan con una estación.
+
+
+### Visualización de datos
+A continuación, resulta de interés observar dónde se encuentran espacialmente estos datos. Para ello, primero se importa una base con la ubicación georreferenciada de los barrios de CABA.
+
+```{r}
+barrios_caba<- st_read("datos/barrios_caba/barrios_caba.shp",
+                            stringsAsFactors =TRUE,
+                            options = "ENCODING=UTF-8")
+```
+
+Luego, se superponen los datos para asegurar que coincidan espacialmente:
+
+```{r}
+leaflet() %>%
+  addProviderTiles(providers$CartoDB.Positron) %>%
+  addCircleMarkers(data = estaciones_bici, ~long, ~lat, popup = ~nombre, radius = 2, color = "#007acc", fillOpacity = 0.7) %>%
+  addPolygons(data = barrios_caba, weight = 2, color = "#5b5b5b", fill = FALSE)
+```
+
+No obstante, para poder realizar un mapa coroplético de cantidades por barrio, es necesario transformar los datos de las estaciones al crs de los barrios de CABA:
+
+```{r}
+estaciones_bici_geo <- estaciones_bici %>% 
+  st_as_sf(coords = c("long","lat"), crs =4326)
+```
+
+Una vez realizada esta operación, se procede a unir ambas bases de datos, recuperando la cantidad de observaciones por barrio, y descartando los atributos espaciales para poder realizar la unión:
+
+```{r}
+estaciones_bici_barrios <- st_join(estaciones_bici_geo, barrios_caba) %>%
+  group_by(barrio) %>%
+  summarise(cantidad = n()) %>%
+  st_drop_geometry()
+```
+
+```{r}
+barrios_caba <- left_join(barrios_caba, estaciones_bici_barrios, by="barrio")
+```
+
+A partir de esto, se puede visualizar espacialmente la concentración de estaciones de bicicletas públicas en la Ciudad de Buenos Aires:
+
+```{r}
+ggplot() + 
+  geom_sf(data = barrios_caba, aes(fill = cantidad), color = "white") + 
+  geom_sf_label(data = barrios_caba, aes(label = cantidad), size = 1.5, color = "black") +
+  labs(
+    title = "Estaciones de bicicletas públicas por barrio",
+    subtitle = "Ciudad Autónoma de Buenos Aires",
+    caption = "Fuente: Buenos Aires Data"
+  ) +
+  scale_fill_distiller(palette = "PuBuGn", direction = 1) + 
+  theme_void()
+```
+
+El mapa de cantidad de estaciones por barrio demuestra, tal como vimos en los gráficos del apartado anterior, que la mayor cantidad se concentra en **Palermo**, seguido por **Recoleta**. Se puede observar un **descenso en la cantidad de estaciones hacia la periferia de la ciudad**, e incluso una **ausencia por completo de este servicio en 3 agrupaciones de barrios**: i. Villa Riachuelo y Villa Soldati (Comuna 8), al sur de la ciudad, ii. Villa Real, Versalles, Monte Castro, Floresta, Vélez Sarsfield, Villa Luro (Comuna 10 por compelto), a los que se le suman Mataderos y Liniers (Comuna 9), iii. Villa Pueyrredón (Comuna 12) y Agronomía (Comuna 15).
+
+A continuación, se contrasta esta información con la densidad de estaciones por km2:
+
+```{r}
+ggplot()+ 
+  geom_sf(data=barrios_caba, aes(fill=cantidad/sup_km2), color= "white")+ 
+  geom_sf_label(data = barrios_caba, aes(label = round(cantidad / sup_km2, 2)), size = 1.5, color = "black") +
+  labs(title = "Estaciones de bicicletas públicas - Cantidad por km2", 
+       subtitle = "Ciudad de Buenos Aires", 
+       fill = "Cantidad/km2", 
+       caption = "Fuente: Buenos Aires Data") +
+  scale_fill_distiller(palette = "PuBuGn", direction = 1) + 
+  theme_void()
+```
+
+Aquí, se puede observar que, a diferencia del primer análisis, **San Nicolás** es el barrio que presenta mayor cantidad de estaciones por kilómetro cuadrado (específicamente 7,42), seguido de **Monserrat** (4,09), y **San Telmo** (3.25).
+
+
+
+### Conclusiones 
+El análisis cuantitativo de la infraestructura de bicicletas públicas en la Ciudad de Buenos Aires revela patrones significativos en la distribución y densidad de estaciones, ofreciendo valiosas perspectivas para la movilidad sostenible y la planificación urbana. Entre los principales hallazgos se encuentran:
+
+1. **Desigualdad en la Distribución:** La concentración de estaciones es notable en ciertos barrios, siendo Palermo, Recoleta y San Nicolás los líderes en cantidad. Sin embargo, se observa una marcada escasez de estaciones en áreas periféricas, con notables carencias en barrios como Villa Riachuelo y Villa Soldati, así como en agrupaciones de barrios en las Comunas 8, 9 y 10.
+
+2. **Oportunidades para la Expansión:** La identificación de barrios con baja presencia de estaciones, como Villa Santa Rita y Floresta, sugiere oportunidades para la expansión de la infraestructura. Esto podría impulsar la adopción de la movilidad sostenible en áreas que actualmente carecen de acceso adecuado a bicicletas públicas.
+
+3. **Patrones de Uso Relevantes:** (Reflexiones sobre el tab BONUS) El análisis de los recorridos de bicicletas públicas revela que las estaciones en Pácifico (Palermo), Constitución (Constitución) y Plaza Italia (Palermo) son las más utilizadas tanto como puntos de inicio como de destino. Este descubrimiento destaca la importancia de estas ubicaciones estratégicas y sugiere la necesidad de una mayor atención en áreas como Constitución, donde la oferta de estaciones está significativamente por debajo del promedio.
+
+4. **Consideraciones Espaciales:** La visualización cartográfica evidencia la correlación entre la densidad de estaciones y la utilización de bicicletas públicas. Los barrios centrales, como San Nicolás y Monserrat, exhiben una alta densidad de estaciones, indicando una relación entre la infraestructura disponible y la demanda de los usuarios.
+
+En resumen, este análisis no solo arroja luz sobre la infraestructura actual, sino que también destaca áreas de mejora y expansión. La movilidad sostenible es esencial para el futuro de las ciudades, y entender la dinámica de las estaciones de bicicletas públicas es un paso crucial hacia un sistema de transporte más eficiente y amigable con el medio ambiente.

@@ -1,0 +1,230 @@
+id,codigo,nombre,tipo,horario,anclajes_t,long,lat,BARRIO,COMUNA
+"90","94",094 - GÚZMAN,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.45,-34.592,CHACARITA,15.00000000000
+"95","101",101 - Fitz Roy,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.442,-34.589,CHACARITA,15.00000000000
+"97","104",104 - Federico Lacroze,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.455,-34.588,CHACARITA,15.00000000000
+"201","243",243 - PLAZOLETA CELEDONIO FLORES,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.452,-34.582,CHACARITA,15.00000000000
+"283","213",213 - Hospital Alvear,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.474,-34.597,PATERNAL,15.00000000000
+"350","278",278 - Donato Alvarez,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.466,-34.602,PATERNAL,15.00000000000
+"94","99",099 - Malabia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.435,-34.596,VILLA CRESPO,15.00000000000
+"136","158",158 - VILLARROEL,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.445,-34.593,VILLA CRESPO,15.00000000000
+"184","129",129 - Velasco,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.435,-34.6,VILLA CRESPO,15.00000000000
+"185","136",136 - Acevedo,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.443,-34.6,VILLA CRESPO,15.00000000000
+"203","384",384 - PLAZA BENITO NAZAR,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.446,-34.605,VILLA CRESPO,15.00000000000
+"289","285",285 - ESPINOSA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.457,-34.604,VILLA CRESPO,15.00000000000
+"299","100",100 - Plaza Gurruchaga,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.435,-34.593,VILLA CRESPO,15.00000000000
+"212","348",348 - Villa del Parque,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.494,-34.601,VILLA DEL PARQUE,11.00000000000
+"345","204",204 - Biarritz,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.477,-34.605,VILLA DEL PARQUE,11.00000000000
+"348","268",268 - Plaza Aristóbulo Del Valle,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.493,-34.606,VILLA DEL PARQUE,11.00000000000
+"16","17",017 - Plaza Almagro,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.419,-34.606,ALMAGRO,5.00000000000
+"51","54",054 - Acuña de Figueroa,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.422,-34.598,ALMAGRO,5.00000000000
+"78","82",082 - HOSPITAL ITALIANO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.426,-34.608,ALMAGRO,5.00000000000
+"111","121",121 - YATAY,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.429,-34.601,ALMAGRO,5.00000000000
+"120","134",134 - DON BOSCO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.417,-34.612,ALMAGRO,5.00000000000
+"137","161",161 - Humahuaca,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.42,-34.602,ALMAGRO,5.00000000000
+"168","194",194 - PERÓN Y ACUÑA DE FIGUEROA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.422,-34.606,ALMAGRO,5.00000000000
+"171","197",197 - Quintino Bocayuva,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.423,-34.613,ALMAGRO,5.00000000000
+"177","167",167 - Hipólito Yrigoyen,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.428,-34.615,ALMAGRO,5.00000000000
+"27","29",029 - Parque Centenario,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.434,-34.608,CABALLITO,6.00000000000
+"70","74",074 - INSTITUTO  LELOIR,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.435,-34.604,CABALLITO,6.00000000000
+"76","80",080 - DOBLAS,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.43,-34.624,CABALLITO,6.00000000000
+"83","87",087 - Guayaquil,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.431,-34.62,CABALLITO,6.00000000000
+"143","275",275 - PLAZA 24 DE SEPTIEMBRE,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.449,-34.607,CABALLITO,6.00000000000
+"199","188",188 - Aranguren,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.433,-34.61,CABALLITO,6.00000000000
+"224","276",276 - PRIMERA JUNTA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.442,-34.621,CABALLITO,6.00000000000
+"225","374",374 - Puan,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.449,-34.622,CABALLITO,6.00000000000
+"231","272",272 - Plaza Bruno Giordano,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.441,-34.616,CABALLITO,6.00000000000
+"242","223",223 - GAINZA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.447,-34.617,CABALLITO,6.00000000000
+"250","350",350 - Plaza Irlanda,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.458,-34.614,CABALLITO,6.00000000000
+"287","205",205 - SAN MARTIN,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.453,-34.606,CABALLITO,6.00000000000
+"393","187",187 - Jose Maria Moreno,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.436,-34.62,CABALLITO,6.00000000000
+"310","218",218 - Campana,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.484,-34.617,VILLA SANTA RITA,11.00000000000
+"233","270",270 - PLAZA DEL ANGEL GRIS,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.458,-34.622,FLORES,7.00000000000
+"235","361",361 - Plaza Don Segundo Sombra,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.451,-34.642,FLORES,7.00000000000
+"270","365",365 - Venancio Flores,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.474,-34.63,FLORES,7.00000000000
+"271","221",221 - CULPINA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.466,-34.632,FLORES,7.00000000000
+"327","354",354 - Plaza Tupac Amaru,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"28",-58.462,-34.642,FLORES,7.00000000000
+"335","322",322 - MARTÍ Y DIRECTORIO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.47,-34.636,FLORES,7.00000000000
+"341","215",215 - HOSPITAL ALVAREZ,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.468,-34.623,FLORES,7.00000000000
+"405","352",352 - San Jose de Flores,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.463,-34.629,FLORES,7.00000000000
+"339","324",324 - Las Victorias,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.487,-34.627,FLORESTA,10.00000000000
+"56","18",018 - Independencia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.381,-34.618,CONSTITUCION,1.00000000000
+"144","168",168 - Estados Unidos,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.381,-34.619,CONSTITUCION,1.00000000000
+"151","147",147 - Constitución,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"36",-58.381,-34.627,CONSTITUCION,1.00000000000
+"269","373",373 - Jorgelina De Simone,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.39,-34.624,CONSTITUCION,1.00000000000
+"82","86",086 - SAAVEDRA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.402,-34.621,SAN CRISTOBAL,3.00000000000
+"89","93",093 - CARLOS CALVO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.394,-34.621,SAN CRISTOBAL,3.00000000000
+"127","146",146 - Hospital Francés,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.408,-34.622,SAN CRISTOBAL,3.00000000000
+"46","49",049 - 33 Orientales,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.423,-34.629,BOEDO,5.00000000000
+"172","199",199 - ESTADOS UNIDOS Y BOEDO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.416,-34.622,BOEDO,5.00000000000
+"191","140",140 - Las Casas,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.416,-34.636,BOEDO,5.00000000000
+"195","178",178 - José Marmol,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.425,-34.623,BOEDO,5.00000000000
+"19","21",021 - Parque Patricios,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.406,-34.64,PARQUE PATRICIOS,4.00000000000
+"38","41",041 - Urquiza y Rondeau,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.408,-34.636,PARQUE PATRICIOS,4.00000000000
+"88","92",092 - Salcedo,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.405,-34.632,PARQUE PATRICIOS,4.00000000000
+"100","107",107 - HOSPITAL GARRAHAN,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.396,-34.63,PARQUE PATRICIOS,4.00000000000
+"159","184",184 - Pedro Echague,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.391,-34.631,PARQUE PATRICIOS,4.00000000000
+"385","387",387 - Luna,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.4,-34.639,PARQUE PATRICIOS,4.00000000000
+"273","309",309 - UTN II,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.467,-34.661,VILLA LUGANO,8.00000000000
+"107","117",117 - HUMBERTO 1°,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.374,-34.62,SAN TELMO,1.00000000000
+"122","137",137 - AZOPARDO Y CHILE,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.367,-34.616,SAN TELMO,1.00000000000
+"140","164",164 - FACULTAD DE INGENERIA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.367,-34.618,SAN TELMO,1.00000000000
+"148","172",172 - BRASIL,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.371,-34.625,SAN TELMO,1.00000000000
+"238","399",399 - GARCIA DEL RIO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"28",-58.477,-34.55,SAAVEDRA,12.00000000000
+"355","297",297 - TRONADOR Y GARCÍA DEL RÍO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.485,-34.555,SAAVEDRA,12.00000000000
+"204","252",252 - Tamborini,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.479,-34.56,COGHLAN,12.00000000000
+"247","233",233 - MONROE,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.47,-34.564,COGHLAN,12.00000000000
+"349","277",277 - Coghlan,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"8",-58.476,-34.566,COGHLAN,12.00000000000
+"207","281",281 - Villa Urquiza,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.487,-34.574,VILLA URQUIZA,12.00000000000
+"218","346",346 - Plaza Zapiola,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.475,-34.574,VILLA URQUIZA,12.00000000000
+"227","264",264 - Plaza Marcos Sastre,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.481,-34.571,VILLA URQUIZA,12.00000000000
+"295","280",280 - JURAMENTO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.484,-34.579,VILLA URQUIZA,12.00000000000
+"18","20",020 - Distrito Audiovisual,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.442,-34.58,COLEGIALES,13.00000000000
+"239","260",260 - SAN MIGUEL DE GARICOITS,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"18",-58.458,-34.577,COLEGIALES,13.00000000000
+"325","258",258 - Plaza J.J. Paso,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.454,-34.569,COLEGIALES,13.00000000000
+"12","13",013 - ONCE,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.406,-34.61,BALVANERA,3.00000000000
+"71","75",075 - Plaza Primero de Mayo,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.399,-34.612,BALVANERA,3.00000000000
+"72","76",076 - Ayacucho,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.395,-34.607,BALVANERA,3.00000000000
+"80","84",084 - Lavalle,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.396,-34.602,BALVANERA,3.00000000000
+"87","91",091 - Pasco,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.398,-34.617,BALVANERA,3.00000000000
+"92","96",096 - Carlos Gardel,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.412,-34.603,BALVANERA,3.00000000000
+"108","118",118 - MEXICO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.403,-34.617,BALVANERA,3.00000000000
+"110","120",120 - HOSPITAL RAMOS MEJIA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.409,-34.618,BALVANERA,3.00000000000
+"126","144",144 - PUEYRREDÓN,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.406,-34.602,BALVANERA,3.00000000000
+"138","162",162 - LARREA Y BARTOLOMÉ MITRE,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.402,-34.609,BALVANERA,3.00000000000
+"139","163",163 - ONCE II,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.406,-34.61,BALVANERA,3.00000000000
+"147","171",171 - Pasteur,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.4,-34.603,BALVANERA,3.00000000000
+"161","186",186 - MANZANA 66,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.406,-34.614,BALVANERA,3.00000000000
+"232","349",349 - Plaza Saenz Peña,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.467,-34.61,VILLA GRAL. MITRE,11.00000000000
+"303","206",206 - Galicia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.471,-34.616,VILLA GRAL. MITRE,11.00000000000
+"276","395",395 - Agronomia II,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"15",-58.484,-34.589,PARQUE CHAS,15.00000000000
+"389","225",225 - HOSPITAL TORNU,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.474,-34.587,PARQUE CHAS,15.00000000000
+"217","282",282 - Tronador,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"18",-58.466,-34.584,VILLA ORTUZAR,15.00000000000
+"363","313",313 - De Los Incas,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.471,-34.58,VILLA ORTUZAR,15.00000000000
+"69","73",073 - Ruy Díaz de Guzmán,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.372,-34.631,BARRACAS,4.00000000000
+"123","138",138 - Hospital Britanico,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.388,-34.635,BARRACAS,4.00000000000
+"222","331",331 - CALIFORNIA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.374,-34.647,BARRACAS,4.00000000000
+"409","0",316 - Buenos Aires,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.39,-34.643,BARRACAS,4.00000000000
+"394","273",273 - Plazoleta Colombia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.374,-34.638,BARRACAS,4.00000000000
+"337","367",367 - Martinez Castro,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.47,-34.644,PARQUE AVELLANEDA,9.00000000000
+"369","330",330 - Parque Avellaneda,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"28",-58.48,-34.641,PARQUE AVELLANEDA,9.00000000000
+"192","97",097 - Avelino Diaz,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.428,-34.635,PARQUE CHACABUCO,7.00000000000
+"240","370",370 - Beauchef,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.43,-34.64,PARQUE CHACABUCO,7.00000000000
+"249","222",222 - SIMON BOLIVAR,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.449,-34.634,PARQUE CHACABUCO,7.00000000000
+"253","229",229 - RIGLOS,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.435,-34.631,PARQUE CHACABUCO,7.00000000000
+"257","333",333 - MIRO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"19",-58.443,-34.64,PARQUE CHACABUCO,7.00000000000
+"134","155",155 - Parque José Evaristo Uriburu,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.413,-34.641,NUEVA POMPEYA,4.00000000000
+"274","340",340 - PLAZA NUEVA POMPEYA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.416,-34.652,NUEVA POMPEYA,4.00000000000
+"386","394",394 - Av. La Plata,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.422,-34.644,NUEVA POMPEYA,4.00000000000
+"5","5",005 - Plaza Italia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"42",-58.421,-34.581,PALERMO,14.00000000000
+"9","9",009 - Parque Las Heras,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.408,-34.585,PALERMO,14.00000000000
+"13","14",014 - Pacifico,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.426,-34.577,PALERMO,14.00000000000
+"23","25",025 - Plaza Guemes,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.416,-34.589,PALERMO,14.00000000000
+"41","44",044 - Ecoparque,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.414,-34.576,PALERMO,14.00000000000
+"47","50",050 - Hospital Rivadavia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.401,-34.584,PALERMO,14.00000000000
+"53","56",056 - Plaza Palermo Viejo,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.426,-34.589,PALERMO,14.00000000000
+"55","58",058 - Ministro Carranza,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.435,-34.575,PALERMO,14.00000000000
+"62","65",065 - Julián Álvarez,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.416,-34.587,PALERMO,14.00000000000
+"66","70",070 - ARAOZ,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.426,-34.593,PALERMO,14.00000000000
+"85","89",089 - Cabello,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.406,-34.583,PALERMO,14.00000000000
+"113","124",124 - UGARTECHE,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.412,-34.581,PALERMO,14.00000000000
+"135","156",156 - Plaza Alemania,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.407,-34.578,PALERMO,14.00000000000
+"157","182",182 - RAVIGNANI Y GUATEMALA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.435,-34.578,PALERMO,14.00000000000
+"164","190",190 - JUNCAL,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.411,-34.585,PALERMO,14.00000000000
+"178","125",125 - F.J.Santamaria de Oro,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.428,-34.583,PALERMO,14.00000000000
+"179","159",159 - Fitz Roy & Gorriti,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.437,-34.585,PALERMO,14.00000000000
+"180","123",123 - Armenia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.421,-34.585,PALERMO,14.00000000000
+"182","335",335 - General Urquiza,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.411,-34.572,PALERMO,14.00000000000
+"186","142",142 - Armenia y Gorriti,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.429,-34.591,PALERMO,14.00000000000
+"187","113",113 - Guatemala,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.425,-34.586,PALERMO,14.00000000000
+"188","59",059 - Coronel Diaz,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.411,-34.59,PALERMO,14.00000000000
+"194","160",160 - Godoy Cruz y Libertador,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.421,-34.573,PALERMO,14.00000000000
+"210","391",391 - Plaza República de Ecuador,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.421,-34.565,PALERMO,14.00000000000
+"213","103",103 - MALBA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.403,-34.577,PALERMO,14.00000000000
+"246","292",292 - PLAZA BOLIVIA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.436,-34.564,PALERMO,14.00000000000
+"280","251",251 - Solar de la Abadía,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.437,-34.568,PALERMO,14.00000000000
+"321","242",242 - Plazoleta Rafael del Riego,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.446,-34.567,PALERMO,14.00000000000
+"328","381",381 - Matienzo Y Arce,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.434,-34.569,PALERMO,14.00000000000
+"302","203",203 - Beiro,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.504,-34.6,VILLA DEVOTO,11.00000000000
+"304","207",207 - PLAZA ARENALES,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"27",-58.511,-34.6,VILLA DEVOTO,11.00000000000
+"24","26",026 - JUANA MANSO I,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.364,-34.601,PUERTO MADERO,1.00000000000
+"75","79",079 - AZUCENA VILLAFLOR,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.364,-34.612,PUERTO MADERO,1.00000000000
+"102","111",111 - MACACHA GUEMES,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.365,-34.605,PUERTO MADERO,1.00000000000
+"130","151",151 - AIME PAINÉ,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.361,-34.612,PUERTO MADERO,1.00000000000
+"131","152",152 - JULIETA LANTERI,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.36,-34.618,PUERTO MADERO,1.00000000000
+"319","237",237 - Madero Office,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.365,-34.599,PUERTO MADERO,1.00000000000
+"3","3",003 - ADUANA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.368,-34.611,MONSERRAT,1.00000000000
+"22","24",024 - ALSINA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"18",-58.381,-34.611,MONSERRAT,1.00000000000
+"43","46",046 - Chile,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"18",-58.374,-34.616,MONSERRAT,1.00000000000
+"103","112",112 - 9 de Julio,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.38,-34.612,MONSERRAT,1.00000000000
+"128","149",149 - LIMA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.381,-34.615,MONSERRAT,1.00000000000
+"158","183",183 - VIRREY CEVALLOS,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.39,-34.616,MONSERRAT,1.00000000000
+"260","244",244 - UADE,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.382,-34.617,MONSERRAT,1.00000000000
+"398","16",016 - Legislatura,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.375,-34.61,MONSERRAT,1.00000000000
+"401","61",061-Ministerio de Economia,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.371,-34.609,MONSERRAT,1.00000000000
+"4","4",004 - Plaza Roma,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.369,-34.602,SAN NICOLAS,1.00000000000
+"7","7",007 - OBELISCO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.381,-34.606,SAN NICOLAS,1.00000000000
+"8","8",008 - Congreso,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.389,-34.609,SAN NICOLAS,1.00000000000
+"21","23",023 - Suipacha,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.38,-34.6,SAN NICOLAS,1.00000000000
+"30","32",032 - Catedral,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.374,-34.607,SAN NICOLAS,1.00000000000
+"39","42",042 - Diagonal Norte,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"18",-58.38,-34.605,SAN NICOLAS,1.00000000000
+"42","45",045 - Uruguay,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.387,-34.602,SAN NICOLAS,1.00000000000
+"48","51",051 - TUCUMAN,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.382,-34.601,SAN NICOLAS,1.00000000000
+"57","60",060 - 25 De Mayo,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.371,-34.602,SAN NICOLAS,1.00000000000
+"60","63",063 - Reconquista,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.373,-34.599,SAN NICOLAS,1.00000000000
+"67","71",071 - CERRITO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.383,-34.603,SAN NICOLAS,1.00000000000
+"79","83",083 - Paraná,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.389,-34.603,SAN NICOLAS,1.00000000000
+"91","95",095 - ESMERALDA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.378,-34.602,SAN NICOLAS,1.00000000000
+"116","128",128 - PARQUE DEL BAJO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.369,-34.604,SAN NICOLAS,1.00000000000
+"119","132",132 - CORRIENTES,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.373,-34.603,SAN NICOLAS,1.00000000000
+"165","191",191 - Rivadavia y 9 de Julio,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.381,-34.608,SAN NICOLAS,1.00000000000
+"391","37",037 - Claudia Pia Braudacco,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.378,-34.608,SAN NICOLAS,1.00000000000
+"162","261",261 - QUINTEROS LIDORO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.451,-34.553,BELGRANO,13.00000000000
+"202","259",259 - PLAZA CASTELLI,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.465,-34.568,BELGRANO,13.00000000000
+"208","254",254 - Plaza Rafael Hernandez,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.455,-34.562,BELGRANO,13.00000000000
+"215","248",248 - Husares,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.443,-34.552,BELGRANO,13.00000000000
+"228","336",336 - La Pampa,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.455,-34.566,BELGRANO,13.00000000000
+"244","256",256 - PLAZA NORUEGA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.459,-34.562,BELGRANO,13.00000000000
+"258","255",255 - BARRANCAS DE BELGRANO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.448,-34.56,BELGRANO,13.00000000000
+"294","240",240 - ECHEVERRIA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.459,-34.565,BELGRANO,13.00000000000
+"323","249",249 - Balbín,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.466,-34.561,BELGRANO,13.00000000000
+"324","250",250 - Fleni,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.45,-34.556,BELGRANO,13.00000000000
+"387","396",396 - PLAZA ALBERTI,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.459,-34.555,BELGRANO,13.00000000000
+"11","12",012 - Plaza Vicente Lopez,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.389,-34.593,RECOLETA,2.00000000000
+"25","27",027 - Montevideo,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.39,-34.599,RECOLETA,2.00000000000
+"28","30",030 - Peña,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.397,-34.591,RECOLETA,2.00000000000
+"31","33",033 - Facultad de Medicina,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.399,-34.597,RECOLETA,2.00000000000
+"40","334",334 - CENTRO DE EXPOSICIONES,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.39,-34.584,RECOLETA,2.00000000000
+"61","64",064 - RIOBAMBA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.394,-34.594,RECOLETA,2.00000000000
+"63","66",066 - Billinghurst,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.414,-34.595,RECOLETA,2.00000000000
+"65","69",069 - Ecuador,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.405,-34.596,RECOLETA,2.00000000000
+"81","85",085 - AGUERO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.409,-34.595,RECOLETA,2.00000000000
+"106","116",116 - HOSPITAL ALEMÁN,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.403,-34.592,RECOLETA,2.00000000000
+"118","131",131- HOSPITAL DE CLÍNICAS,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.399,-34.598,RECOLETA,2.00000000000
+"141","165",165 - PLAZA MONSEÑOR MIGUEL DE ANDREA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"12",-58.408,-34.597,RECOLETA,2.00000000000
+"142","166",166 - Cementerio de Recoleta,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.393,-34.589,RECOLETA,2.00000000000
+"150","174",174 - MINISTERIO DE EDUCACION,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.392,-34.597,RECOLETA,2.00000000000
+"156","181",181 - BILLINGHURST Y MANSILLA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.412,-34.593,RECOLETA,2.00000000000
+"167","193",193 - ARENALES Y AGUERO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.406,-34.591,RECOLETA,2.00000000000
+"173","200",200 - AUSTRIA Y FRENCH,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.404,-34.588,RECOLETA,2.00000000000
+"175","1",001 - FACULTAD DE DERECHO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.391,-34.584,RECOLETA,2.00000000000
+"2","2",002 - Retiro I,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.375,-34.592,RETIRO,1.00000000000
+"20","22",022 - Arenales,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.383,-34.594,RETIRO,1.00000000000
+"32","35",035 - INGENIERO BUTTY,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.372,-34.596,RETIRO,1.00000000000
+"35","38",038 - Plaza Libertad,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.383,-34.597,RETIRO,1.00000000000
+"104","114",114 - DELLA PAOLERA,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.372,-34.595,RETIRO,1.00000000000
+"117","130",130 - RETIRO II,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"40",-58.375,-34.592,RETIRO,1.00000000000
+"121","135",135 - MARCELO T. DE ALVEAR,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.379,-34.597,RETIRO,1.00000000000
+"163","189",189 - POSADAS,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.385,-34.589,RETIRO,1.00000000000
+"403","393",393 - Barrio 31,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.379,-34.582,RETIRO,1.00000000000
+"263","363",363 - Udaondo,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.452,-34.546,NUÑEZ,13.00000000000
+"293","289",289 - MONTAÑESES,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.454,-34.551,NUÑEZ,13.00000000000
+"377","257",257 - Plaza Francisco Ramirez,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"28",-58.469,-34.553,NUÑEZ,13.00000000000
+"396","227",227 -Club Ciudad de Buenos Aires,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.459,-34.545,NUÑEZ,13.00000000000
+"6","6",006 - Parque Lezama,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.37,-34.629,BOCA,4.00000000000
+"45","34",034 - Colonia Express,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.362,-34.624,BOCA,4.00000000000
+"114","126",126 - Ministerio de Justicia y Seguridad,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.369,-34.64,BOCA,4.00000000000
+"129","150",150 - RODRIGO BUENO,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"30",-58.356,-34.619,BOCA,4.00000000000
+"132","153",153 - JUAN MANUEL DE BLANES,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.362,-34.631,BOCA,4.00000000000
+"154","179",179 - CASA SAN,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"16",-58.364,-34.638,BOCA,4.00000000000
+"170","196",196 - HOSPITAL ARGERICH,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"20",-58.366,-34.628,BOCA,4.00000000000
+"176","108",108 - Usina del Arte,AUTOMÁTICA,Estación automática: disponibilidad las 24 horas,"24",-58.356,-34.629,BOCA,4.00000000000
